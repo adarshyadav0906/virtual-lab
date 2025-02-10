@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav{
+    height: 90px;
+    background-color: #3DDA24;
+    color: white;
+    display: flex;
+    border: 2px solid white;
+}
+.nav-logo{
+    height: 80px;
+    width: 200px;
+}
+.logo{
+   background-image: url("logo.png");
+    height: 80px;
+    width: 200px;
+    background-size: cover;
+}
+
+.nav-wel{
+    margin: 25px;
+    font-size: larger;
+    text-align: center;
+    margin-left: 110px;
+}
+.nav-sec{
+    background-color: #91CE76;
+    height: 30px;
+    display: flex;
+    border: 2px solid white;
+}
+.HOME{
+    margin-left: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.ABOUTUS{
+    margin-left: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.OBJECTIVE{
+    margin-left: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.CONTACTUS{
+    margin-left: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.HOME a{
+    text-decoration: none;
+}
+.ABOUTUS a{
+    text-decoration: none;
+}
+.OBJECTIVE a{
+    text-decoration: none;
+}
+.CONTACTUS a{
+    text-decoration: none;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-search{
+    display: flex;
+    margin-left: 480px;
+    height: 40px;
+    width: 660px;
+}
+.search{
+    width: 605px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    border-color: #3DDA24;
+}
+.search-icon{
+    align-content: center;
+    width: 35px;
+    margin-left:0px;
+    size: 100px;
+    background-color: #3DDA24;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+
+}
+.fa-solid {
+    position: relative;
+    left: 25%;
+}
+.over{
+    color: #3DDA24;
+}
+footer{
+    background-color: #3DDA24;
+    height: 230px;
+    display: flex;
+}
+
+.quicklinks{
+    position: relative;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.aboutlab{
+    position: relative;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+h3{
+    color: white;
+}
+.scan{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.line{
+    width: 65px;
+}
+.data{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+p{
+    padding-left: 50px;
+}
+li{
+    padding-left: 50px;
+}

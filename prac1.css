@@ -1,0 +1,68 @@
+.topic{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    top: 2px;
+    font-size: 30px;
+    left: 20px;
+    background-color: #3DDA24;
+    border-right: solid #3DDA24;
+}
+.topic a{
+    text-decoration: none;
+    color: white;
+}
+
+.aim{
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    left: 20px;
+}
+
+.theory{
+    position: relative;
+    padding-bottom: 30px;
+    left: 20px;
+}
+
+.procedure{
+    position: relative;
+    padding-bottom: 30px;
+    left: 20px;
+}
+.simulation{
+    position: relative;
+    padding-bottom: 30px;
+    left: 20px;
+}
+.conclusion{
+    position: relative;
+    padding-bottom: 30px;
+    left: 20px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: #3DDA24;
+    position: relative;
+    left: 130px;
+}
+.aim-contentbox{
+    height: 350px;
+    width: 1250px;
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+.aim-box{
+    position: relative;
+    display: flex;
+}
+.aim-content{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 50px;
+    color: #91CE76;
+}
