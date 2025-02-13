@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="prac1.css">
+    <link rel="stylesheet" href="theoryp1.css">
 </head>
 <body>
     <header>
@@ -44,14 +45,229 @@
         <div class="topic">
             <div class="aim"><a href="prac1.html">AIM</a></div>
             <div class="theory"><a href="theoryp1.html">THEORY</a></div>
-            <div class="procedure"><a href="">PROCEDURE</a></div>
+            <div class="procedure"><a href="procedurep1.html">PROCEDURE</a></div>
             <div class="simulation"><a href="">SIMULATION</a></div>
             <div class="conclusion"><a href="">CONCLUSION</a></div>
         </div>
         </div>
     </div>
+    <div class="theorybox">
+        <div class="theorydata">
+            <h1 id="intro">
+                INTRODUCTION <br>
+            </h1><br>
+            <p>
+                <br><br>Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as <br>
+                  1) AND gate <br>
+                  2) OR gate <br>
+                  3) NOT gate <br>
+                  4) NAND gate <br>
+                  5) NOR gate <br>
+                  6) Ex-OR gate <br>
+                  7) Ex-NOR gate <br><br><br>
+
+                  <br>
+                  <p>1) <u>AND GATE</u> </p><br>
+                  <br><br>
+                  <p>The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB</p>
+                  <br><br>
+                  <img class="pic" src="and.png" width="325" height="150" alt="and gate image">
+                  <br><br>
+                  <h3 class="fig1">
+                    Figure-1:Logic Symbol of AND Gate
+                  </h3>
+                  <br>
+                  <img class="pic" src="AA.png" width="300" height="200" alt="andtable">
+                  <br><br>
+                  <h3 class="fig2">
+                    Figure-2:Truth Table of AND Gate
+                  </h3>
+                  <br><br>
+                  <p>A simple 2-input logic AND gate can be constructed using RTL (Resistor-Transistor-Logic) switches connected together as shown below with the inputs connected directly to the transistor bases. Both transistors must be saturated “ON” for an output at Q.</p>
+                  <br><br>
+                  <img class="pic" src="and1.gif" width="325" height="250" alt="and1">
+                  <br><br>
+                  <h3 class="fig3">
+                    Figure-3:AND Gate through RTL logic
+                  </h3>
+                  <br><br>
+                  <p>2) <u>OR GATE</u></p>
+                  <br><br>
+                  <p>The OR gate is an electronic circuit that gives a high output (1) if one or more of its inputs are high. A plus (+) is used to show the OR operation.</p>
+                  <br><br>
+                  <h4 class="y">
+                    Y= A+B
+                  </h4>
+                  <br><br>
+                  <img class="pic" src="or.png" width="325" height="150" alt="or">
+                  <br><br>
+                  <h3 class="fig4">
+                    Figure-4:Logic Symbol of OR Gate
+                  </h3>
+                  <br><br>
+                  <img class="pic" src="truth_or.png" width="300" height="200" alt="ortable">
+                  <br><br>
+                  <h3 class="fig5">
+                    Figure-5:Truth Table of OR Gate
+                  </h3>
+                  <br><br>
+                  <p>OR gate can be realized by DRL (Diode-Resistance-Logic) or by TTL (Transistor-Transistor-Logic). Presently, we will learn how to implement the OR gate using DRL (Diode-Resistance-Logic). To realise OR gate, we will use a diode at every input of the OR gate. The anode part of diode is connected with input while the cathode part is joined together and a resistor, connected with the cathode is grounded. In this case, we have taken two inputs which can be seen in the circuit below.
+                  <br><br>
+                  When both the inputs are at logic 0 or low state then the diodes D1 and D2 become reverse biased. Since the anode terminal of diode is at lower voltage level than the cathode terminal, so diode will act as open circuit so there is no voltage across resistor and hence output voltage is same as ground. When either of the diodes is at logic 1 or high state then the diode corresponding to that input is forward bias. Since this time anode is at high voltage than cathode therefore current will flow through forward biased diode and this current then appears on resistor causing high voltage at output terminal also. Hence at output we get high or logic 1 or +5V. So, if any or both inputs are high, the output will be high or “1”.</p>
+                  <br><br>
+                  <img class="pic" src="dior.gif" width="150" height="250" alt="dior-or">
+                  <br>
+                  <h3 class="fig6">
+                    Figure-6:OR Gate through DRL logic
+                  </h3>
+                  <br><br>
+                  <p>3) <u>NOT GATE</u></p>
+                  <br><br>
+                  <p>The NOT gate is an electronic circuit that produces an inverted version of the input at its output. It is also known as an inverter. If the input variable is A, the inverted output is known as NOT A. This is also shown as A' or A with a bar over the top, as shown at the outputs.</p> <br><br>
+                  <h4 class="y">
+                    Y=A'
+                  </h4>
+                  <br><br>
+                  <img class="pic" src="not.png" height="150" width="325" alt="not">
+                  <br><br>
+                  <h3 class="fig7">
+                    Figure-7:Logic Symbol of NOT Gate
+                  </h3>
+                  <br><br>
+                  <img class="pic" src="truth_not.png" width="300" height="200" alt="nottable">
+                  <br><br>
+                  <h3 class="fig8">
+                    Figure-8:Truth Table of NOT Gate
+                </h3>
+                  <br><br>
+                  <p>NOT gate can be realized through transistor.The input is connected through resistor R2 to the transistor’s base. When no voltage is present on the input, the transistor turns off. When the transistor is off, no current flows through the collector-emitter path. Thus, current from the supply voltage (Vcc) flows through resistor R1 to the output. In this way, the circuit’s output is high when its input is low.
+                  <br><br>
+                 When voltage is present at the input, the transistor turns on, allowing current to flow through the collector-emitter circuit directly to ground. This ground path creates a shortcut that bypasses the output, which causes the output to go low.
+                 <br><br>
+                 In this way, the output is high when the input is low and low when the input is high.</p>
+                 <br><br>
+                 <img class="pic" src="nott.jpg" width="350" height="250" alt="nott">
+                 <br>
+                 <h3 class="fig8">
+                    Figure-9:NOT Gate through Transistor
+                 </h3>
+                 <br><br>
+                 <p>4) <u>NAND GATE</u></p>
+                 <br><br>
+                 <p>This is a NOT-AND gate which is equal to an AND gate followed by a NOT gate. The outputs of all NAND gates are high if any of the inputs are low. The symbol is an AND gate with a small circle on the output. The small circle represents inversion.</p>
+                 <br><br>
+                 <h4 class="y">Y=
+                 <span style="text-decoration: overline;">AB</span>
+                </h4>
+                <br><br>
+                <img class="pic" src="nand.png" width="325" height="150" alt="nand">
+                <br><br>
+                <h3 class="fig10">
+                    Figure-10:Logic Symbol of NAND Gate
+                </h3>
+                <br><br>
+                <img class="pic" src="truth_nand.png" width="300" height="200" alt="nandtable">
+                <br><br>
+                <h3 class="fig11">
+                    Figure-11:Truth Table of NAND Gate
+                </h3>
+                <br><br>
+                <p>A simple 2-input logic NAND gate can be constructed using RTL (Resistor-transistor-logic) switches connected together as shown below with the inputs connected directly to the transistor bases. Either transistor must be cut-off or “OFF” for an output at Q.</p>
+                <br><br>
+                <img class="pic" src="nandr.gif" width="350" height="250" alt="nandr">
+                <br>
+                <h3 class="fig12">
+                    Figure-12:NAND gate through RTL Logic.
+                </h3>
+                <br><br>
+                <p>5) <u>NOR GATE</u></p>
+                <br><br>
+                <p>This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The outputs of all NOR gates are low if any of the inputs are high. The symbol is an OR gate with a small circle on the output. The small circle represents inversion.</p>
+                <br><br>
+                <h4 class="y">
+                   Y=<span style="text-decoration: overline;">A+B</span>
+                </h4>
+                <br><br>
+                <img class="pic" src="nor.png" width="325" height="150" alt="nor">
+                <br><br>
+                <h3 class="fig13">
+                    Figure-13:Logic Symbol of NOR gate
+                </h3>
+                <br><br>
+                <img class="pic" src="truth_nor.png" width="300" height="200" alt="nortable">
+                <br><br>
+                <h3 class="fig14">
+                    Figure-14:Truth Table of NOR gate
+                </h3>
+                <br><br>
+                <p>A simple 2-input logic NOR gate can be constructed using RTL (Resistor-transistor-logic) switches connected together as shown below with the inputs connected directly to the transistor bases. Both transistors must be cut-off or “OFF” for an output at Q.</p>
+                <br><br>
+                <img class="pic" src="norr.gif" width="320" height="250" alt="norr">
+                <br><br>
+                <h3 class="fig15">
+                    Figure-15:NOR gate through RTL Logic.
+                </h3>
+                <br><br>
+                <p>6) <U>Ex-OR GATE</U></p>
+                <br><br>
+                <p>The 'Exclusive-OR' gate is a circuit which will give a high output if either, but not both of its two inputs are high. An encircled plus sign (⊕) is used to show the Ex-OR operation.</p>
+                <br><br>
+                <h4 class="y">
+                    Y= A⊕B
+                </h4>
+                <br><br>
+                <img class="pic" src="xor.png" width="325" height="150" alt="xor">
+                <br><br>
+                <h3 class="fig16">
+                    Figure-16:Logic Symbol of Ex-OR gate
+                </h3>
+                <br><br>
+                <img class="pic" src="truth_xor.png" width="300" height="200" alt="xortable">
+                <br><br>
+                <h3 class="fig17">
+                    Figure-17:Truth Table of Ex-OR gate
+                </h3>
+                <br><br>
+                <p>Ex-OR gate is created from AND, NAND and OR gates.The output is high only when both the inputs are different.</p>
+                <br><br>
+                <img class="pic" src="xorr.png" width="420" height="350" alt="xorr">
+                <br><br>
+                <h3 class="fig18">
+                    Figure-18:Ex-OR gate through RTL Logic.
+                </h3>
+                <p>7) <u>Ex-NOR GATE</u></p>
+                <br><br>
+                <p>The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.</p>
+                <br><br>
+                <h4 class="y">
+                    Y=
+                    <span style="text-decoration: overline;">A⊕B</span>
+                </h4>
+                <br><br>
+                <img class="pic" src="xnor.png" width="325" height="150" alt="xnor">
+                <br><br>
+                <h3 class="fig19">
+                    Figure-19:Logic Symbol of Ex-NOR gate
+                </h3>
+                <br><br>
+                <img class="pic" src="truth_xnor.png" alt="xnortable">
+                <br><br>
+                <h3 class="fig20">
+                    Figure-20:Truth Table of Ex-NOR gate
+                </h3>
+                <br><br>
+                <p>Ex-NOR gate is created from AND, NOT and OR gates.The output is high only when both the inputs are same.</p>
+                <br><br>
+                <img class="pic" src="xnorr.jpg" width="420" height="350" alt="xnorr">
+                <br><br>
+                <h3 class="fig21">
+                    Figure-21:Ex-NOR gate through RTL Logic.
+                </h3>
+            </p>
+        </div>
+        
+    </div>
     </section>
-    <br><br><br><br><br><br><br>
     <footer>
         <div class="footer">
             <div class="quicklinks">

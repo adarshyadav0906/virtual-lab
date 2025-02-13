@@ -1,0 +1,23 @@
+.probox{
+    position: relative;
+    height: 9500px;
+    width: 1200px;
+    background-color: pink;
+    align-content: center;
+    display: flex;
+    left: 300px;
+    bottom: 350px;
+
+}
+
+.prodata{
+    height: 50px;
+    width: 50px;
+    position: relative;
+  background-color: aqua;
+    width: 1200px;
+    height: 9480px;
+}
+#PRO{
+    font-size: 40px;
+}

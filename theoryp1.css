@@ -1,0 +1,148 @@
+.theorybox{
+    position: relative;
+    height: 9500px;
+    width: 1200px;
+    
+    align-content: center;
+    display: flex;
+    left: 300px;
+    bottom: 350px;
+
+}
+
+.theorydata{
+    height: 50px;
+    width: 50px;
+    position: relative;
+  
+    width: 1200px;
+    height: 9480px;
+}
+p{
+    font-size: 25px;
+}
+#intro{
+    font-size: 40px;
+}
+.pic{
+    position: relative;
+    left: 450px;
+}
+
+.fig1{
+    color: black;
+    position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig1{
+    color: black;
+    position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig2{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig3{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig4{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig5{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig6{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig7{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig8{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig9{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig10{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig11{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig12{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig13{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig14{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig15{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig16{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig17{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig18{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig19{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig20{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.fig21{
+    color: black;position: relative;
+    font-size: 20px;
+    left: 450px;
+}
+.y{
+    color: black;position: relative;
+    font-size: 25px;
+    left: 550px;
+}
