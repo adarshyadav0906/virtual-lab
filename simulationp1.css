@@ -1,0 +1,45 @@
+#simh{
+    position: relative;
+    left: 10px;
+}
+#SIM{
+    font-size: 40px;
+}
+.simbox{
+    position: relative;
+    height: 460px;
+    width: 1350px;
+    background-color: pink;
+    align-content: center;
+    display: flex;
+    left: 85px;
+    bottom: 350px;
+    top: 0px;
+}
+.simdata{
+    position: relative;
+    background-color: aqua;
+    width: 1350px;
+    height: 450px;
+}
+.gatesim{
+    display: flex;
+    width: 1050px;
+    background-color: pink;
+    height: 150px;
+    position: relative;
+    left: 150px;
+}
+.gatetype{
+    border: 1px solid white;
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gatetype a{
+    text-decoration: none;
+}
