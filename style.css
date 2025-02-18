@@ -83,8 +83,10 @@
     width: 605px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-
+    padding-top: .8rem;
+    padding-bottom: .8rem;
     border-color: #3DDA24;
+    font-size: large;
 }
 .search-icon{
     align-content: center;
@@ -108,7 +110,7 @@
     top: 50px;
 }
 
-.practical1{
+.practical{
     margin-top: 30px;
     margin-bottom: 0px;
     padding-bottom: 50px;

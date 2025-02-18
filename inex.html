@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="nav-search">
-            <input placeholder="SEARCH" class="search">
+            <input type="text" id="searchBar" placeholder="SEARCH PRACTICALS..." class="search">
             <div class="search-icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
@@ -47,7 +47,7 @@
     </h1>
     <section>
         <div class="practicals">
-            <div class="practical1 background">
+            <div class="practical background">
                 <h1>
                     1) BASIC GATES
                     <br>
@@ -56,7 +56,7 @@
                     <a href="prac1.html" target="_main">START PRACTICAL</a>
                 </h1>
             </div>
-            <div class="practical2 background">
+            <div class="practical background">
                 <h1>
                     2) UNIVERSALITY OF NAND/NOR GATES
                     <br>
@@ -65,7 +65,7 @@
                     <a href="prac2.html" target="_main">START PRACTICAL</a>
                 </h1>
             </div>
-            <div class="practical3 background">
+            <div class="practical background">
                 <h1>
                     3) ADDER (FULL AND HALF)
                     <br>
@@ -74,7 +74,7 @@
                     <a href="prac3.html" target="_main">START PRACTICAL</a>
                 </h1>
             </div>
-            <div class="practical4 background">
+            <div class="practical background">
                 <h1>
                     4) MULTIPLEXER
                     <br>
@@ -83,7 +83,7 @@
                     <a href="prac4.html" target="_main">START PRACTICAL</a>
                 </h1>
             </div>
-            <div class="practical5 background">
+            <div class="practical background">
                 <h1>
                     5) DEMULTIPLEXER
                     <br>
@@ -92,7 +92,7 @@
                     <a href="prac5.html" target="_main">START PRACTICAL</a>
                 </h1>
             </div>
-            <div class="practical6 background">
+            <div class="practical background">
                 <h1>
                     6) 1 BIT COMPARATOR
                     <br>
@@ -134,5 +134,16 @@
             </h3>
         </div>
     </footer>
+    <script>
+        document.getElementById("searchBar").addEventListener("input", function() {
+            let filter = this.value.toLowerCase();
+            let practicals = document.querySelectorAll(".practical");
+    
+            practicals.forEach(practical => {
+                let text = practical.innerText.toLowerCase();
+                practical.style.display = text.includes(filter) ? "" : "none";
+            });
+        });
+    </script>
 </body>
 </html>
